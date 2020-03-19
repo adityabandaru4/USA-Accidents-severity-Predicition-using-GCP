@@ -1,18 +1,18 @@
 # knowledge-based-systems
-<h1 align = "center"> Fake Job Posting Prediction </h1>
+<h1 align = "center">  </h1>
 
 <br/>
 
 
-<br/>
 
-## Team Name: Data Diggers
+## Team Name:
 
 Team Members:
-1. Uma Sai Madhuri Jetty
-2. Sahithi Priya Gutta
-3. Ankita Kumari
-4. Ashesh Shahi
+1)Aditya Bandaru
+2)Anusha Balumuri
+3)Ranga Sai Pavan Kiran Vipparla
+4)Sandeep Bellary
+5)Siri Chandana Sureddi
 
 <br/>
 
