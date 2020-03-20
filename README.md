@@ -1,4 +1,4 @@
-<h1 align = "center"> Severity prediction of car accidents in US </h1>
+<h1 align = "center"> Severity Prediction of Car Accidents in US </h1>
 
 <br/>
 
