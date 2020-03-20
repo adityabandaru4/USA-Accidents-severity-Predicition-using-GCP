@@ -7,14 +7,12 @@
 
 ## Team Name:
 
-Team Members:
-1)Aditya Bandaru
-2)Anusha Balumuri
-3)Ranga Sai Pavan Kiran Vipparla
-4)Sandeep Bellary
-5)Siri Chandana Sureddi
-
-<br/>
+Team Members:<br/>
+1)Aditya Bandaru<br/>
+2)Anusha Balumuri<br/>
+3)Ranga Sai Pavan Kiran Vipparla<br/>
+4)Sandeep Bellary<br/>
+5)Siri Chandana Sureddi<br/>
 
 ## Project Description 
 - The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
