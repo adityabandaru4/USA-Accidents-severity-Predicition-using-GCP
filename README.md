@@ -15,10 +15,10 @@ Team Members:<br/>
 5)Siri Chandana Sureddi<br/>
 
 ## Project Description 
-- The job market is hard enough to navigate without having to worry about some posting turning out to be a scam—or even just a dead end.
-- The project focuses on predicting which job descriptions are fraudulent or real using text data and meta data features.
-- Focuses on identifying key traits/features of job descriptions which are fraudulent in nature.
-- The main audience of this project will be the students and job- seekers looking for any job opportunities such as: internships, part-   time, full-time jobs.
+- An accident is an uncontrollable incident which happens at times. So our project is focused on “ Car accidents in US” 
+- This dataset has been collected in real-time, using multiple Traffic APIs. Currently, it contains accident data that are collected from February 2016 to December 2019 for the Contiguous United States.
+- With this dataset we are going to predict the severity using factors such as day, weather, county, state, and various other factors.
+- The main audience for this project is civilians and state traffic department. This may help them in containing those accidents..
 
 ### 1. Reasearch Question
 Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
@@ -33,64 +33,61 @@ Therefore, we propose a solution to which helps to identify the fradulent jobs u
 ### 2. Domain and Data: Data Description
 
 #### A. Source and Size of Data
-The Dataset has data from fake_job_posting.csv downloaded from Kaggle. It's a dataset of 48 MB, owned by Shivam Bansal. There are total 18 columns in the data file.
-- job_id - Unique Job ID
-- title - The title of the job ad entry.
-- location - Geographical location of the job ad.
-- department - Corporate department (e.g. sales).
-- salary_range - Indicative salary range (e.g. $50,000-$60,000)
-- company_profile - A brief company description.
-- description - The details description of the job ad.
-- requirements - Enlisted requirements for the job opening.
-- benefits - Enlisted offered benefits by the employer.
-- telecommuting - True for telecommuting positions.
-- has_company_logo - True if company logo is present.
-- has_questions - True if screening questions are present.
-- employment_type - Full-type, Part-time, Contract, etc.
-- required_experience - Executive, Entry level, Intern, etc.
-- required_education - Doctorate, Master’s Degree, Bachelor, etc.
-- industry - Automotive, IT, Health care, Real estate, etc.
-- function - Consulting, Engineering, Research, Sales etc.
-- fraudulent - target variable - Classification attribute.
+This is a countrywide car accident dataset, which covers 49 states of the United States. The accident data are collected from February 2016 to December 2019, using several data providers, including two APIs that provide streaming traffic incident data. These APIs broadcast traffic data captured by a variety of entities, such as the US and state departments of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road-networks. Currently, there are about 3.0 million accident records in this dataset.
+- ID - This is a unique identifier of the accident record.
+- Source - Indicates source of the accident report (i.e. the API which reported the accident.).
+- TMC - A traffic accident may have a Traffic Message Channel (TMC) code which provides more detailed description of the event.
+- Severity - Shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic (i.e., short delay as a result of the accident) and 4 indicates a significant impact on traffic (i.e., long delay).
+- Start_Time - Shows start time of the accident in local time zone.
+- End_Time - Shows end time of the accident in local time zone.
+- Distance(mi) - The length of the road extent affected by the accident.
+- City - Shows the city in address field.
+- County -Shows the county in address field.
+- State - Shows the state in address field.
+- Zipcode - Shows the zipcode in address field.
+- Country - Shows the country in address field.
+- Timezone - Shows timezone based on the location of the accident (eastern, central, etc.).
+- Weather_Timestamp - Shows the time-stamp of weather observation record (in local time).
+- Temperature(F) - Shows the temperature (in Fahrenheit).
+- Wind_Chill(F) - Shows the wind chill (in Fahrenheit).
+- Humidity(%) - Shows the humidity (in percentage).
+- Pressure(in) - Shows the air pressure (in inches).
+- Wind_Direction - Shows wind direction.
+- Wind_Speed(mph) - Shows wind speed (in miles per hour).
+- Precipitation(in) - Shows precipitation amount in inches, if there is any.
+- Weather_Condition - Shows the weather condition (rain, snow, thunderstorm, fog, etc.).
 
 #### B.Tentative plan for analysis on GCP
 
 ##### Explratory Data Analysis
-- We will use Cloud AutoML Delving into data
-- Examine important interrelationships between attributes
-- Identify interesting subsets of the observations
-- Develop an initial idea of possible associations amongst the predictors, as well as between the predictors and the target variable.<br>
+- We use Cloud AutoML and will be exploring the data
+- For each observation, important subsets are identified
+- Interrelationships between various attributes will be observed
+- Guessing for possible associations between target variable and predictors
+- Looking for associations among the predictors
+<br>
 
 ##### Preprocessing Phase
-- In this phase, First we'll try to find out which columns has null values in the dataset.
-- Then we will fill the missing values of the columns in the dataset.
-- We'll also look for outliers and try to remove them.
-- After that we'll check the correlation between the features (columns) to find out the most relevant features for the prediction.
-- Using Google Cloud Dataflow, Google Dataprep, and Google Dataproc we will be cleaning and pre-procssing the dataset for better           analysis.
+- We dig and explore for all the null values and missing values like ‘Number’, ‘End_Lng’, ‘End_Lat’ columns in the dataset.
+- We will find and remove all the outliers in the dataset by looking all the columns and finding the values that are very different from the rest of them.
+- We will look for various features to find the most relevant ones to use them for predictions like ‘Weather_Timestamp’, ‘Severity’ , etc., from the dataset.
+- We will learn what are the columns that are least significant like ‘End_Lng’ and ‘End_Lat’ columns in the dataset and remove them.
+- We will use Cloud Dataflow, Google Dataprep and Google Dataproc for cleaning the data and pre-processing the dataset
 
 ##### Dashboard for Users and Dashboard for Data Engineers
-- We'll create two different dashboards one for our main audience/users i.e students or job-seekers and the other for Data Engineers.
-- Dashboard for users will be more simplified and more action oriented for filters or parameters so that users would be able to           use it easily.
-- Dashboard for Data Engineers will be more advance.
+- A Dashboard is created for users.
+- Users dashboard is included with action-oriented features as make it easier for them which will help them refer to or look at what they desire
 
 ##### GCP processing - ML
-- After cleaning the data and placing it in proper storage, we will start training dataset to run on AI platform.
-- Since most of the features are categorical, we will be using classification models for the prediction.
-- We will use differet models such as logistic regression and NLP prediction models to predict the the fake job posings.
+
 
 ##### Evaluation of Results
-- After training and building the models we will use AutoML Natural Language which provide and aggregate set of evaluation metrics how     well the model performs overall.
-- We will use precision and recall to measure how well the model is capturing information, and how much it's leaving out.
-- We will use confusion matrix that represents the percentage of times each label wll predicted in the training set during evaluation.
-- We will also use Mean Absolute error and mean squared rror to measure the distance between the predicted sentiment value and the         actual sentiment value.
+
 
 ##### Steps for production Model
-- To train and build the model we will use AutoML Natural Language UI.
-- After training, we will export the models for deployment on AI Platform Prediction.
-- Then deploy the models and get predictions.
-- Finally, we will evaluate the models.
+
 
 ##### Final Dashboard for User Group
-- Final Dashboard will contain various charts identifying Fake job postings based on different factors such as: Company Profile,           Job-description, Benefits, Requirements, and Locations. 
+- 
 
 
