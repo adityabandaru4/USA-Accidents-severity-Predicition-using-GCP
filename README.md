@@ -17,10 +17,10 @@ Team Members:<br/>
 - With this dataset we are going to predict the severity using factors such as day, weather, county, state, and various other factors.
 - The main audience for this project is civilians and state traffic department. This may help them in containing those accidents..
 
-### 1. Reasearch Question
+### 1. Research Question
 Road Accidents are a common cause of death, disability, collateral destruction and a significant public health and road safety problem. Accidents are also a significant cause of congestion and delays in the flow. On average, nearly 5,000 people are killed and over 418,000 people are injured in weather-related crashes each year. Being one of the major steps of accident management, accident severity prediction can provide crucial information for emergency responders to evaluate the severity level of accidents, estimate the potential impacts, and implement efficient accident management procedures.
 
-Therefore, we propose a solution to deal with the increased attention that has been directed at accident severity prediction using modeling techniques like Bayesian network and Regression model. <br>
+Therefore, we propose a solution to deal with the increased attention that has been directed at accident severity prediction using modeling techniques like Bayesian network and Regression models. <br>
 
 ### 2. Domain and Data: Data Description
 
