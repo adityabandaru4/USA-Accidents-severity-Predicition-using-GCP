@@ -1,11 +1,9 @@
 # knowledge-based-systems
-<h1 align = "center">  </h1>
+<h1 align = "center"> Severity prediction of car accidents in US </h1>
 
 <br/>
 
-
-
-## Team Name:
+## Team Name: Quarantine Buddies
 
 Team Members:<br/>
 1)Aditya Bandaru<br/>
@@ -21,14 +19,9 @@ Team Members:<br/>
 - The main audience for this project is civilians and state traffic department. This may help them in containing those accidents..
 
 ### 1. Reasearch Question
-Job boards can be host to scammers who are looking to defraud victims who are at their most suggestible and vulnerable 
-that is, job seekers who are so eager to land a position that they ignore the warning signs that all is not as it seems.
-Scammers know that finding a job can be tough. To trick people looking for honest work, scammers advertise where real employers 
-and job placement firms do. They also make upbeat promises about your chances of employment, and virtually all of them 
-ask you to pay them for their services before you get a job. 
-<br> The major targets for the scammers are students. Colleges/Universities always explains the students the red flags regarding the 
-employment oppurtunities. Still it is not hundered percent possible to eliminate all the scams or save students from scams all the time.
-Therefore, we propose a solution to which helps to identify the fradulent jobs using text and meta data information modelling. <br>
+Road Accidents are a common cause of death, disability, collateral destruction and a significant public health and road safety problem. Accidents are also a significant cause of congestion and delays in the flow. On average, nearly 5,000 people are killed and over 418,000 people are injured in weather-related crashes each year. Being one of the major steps of accident management, accident severity prediction can provide crucial information for emergency responders to evaluate the severity level of accidents, estimate the potential impacts, and implement efficient accident management procedures.
+
+Therefore, we propose a solution to deal with the increased attention that has been directed at accident severity prediction using modeling techniques like Bayesian network and Regression model. <br>
 
 ### 2. Domain and Data: Data Description
 
@@ -73,21 +66,22 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 - We will look for various features to find the most relevant ones to use them for predictions like ‘Weather_Timestamp’, ‘Severity’ , etc., from the dataset.
 - We will learn what are the columns that are least significant like ‘End_Lng’ and ‘End_Lat’ columns in the dataset and remove them.
 - We will use Cloud Dataflow, Google Dataprep and Google Dataproc for cleaning the data and pre-processing the dataset
+<br>
 
-##### Dashboard for Users and Dashboard for Data Engineers
+##### Dashboard for Users
 - A Dashboard is created for users.
-- Users dashboard is included with action-oriented features as make it easier for them which will help them refer to or look at what they desire
+- Users dashboard is included with action-oriented features as make it easier for them which will help them refer to or look at what they desire.
+<br>
 
-##### GCP processing - ML
-
-
-##### Evaluation of Results
+##### GCP processing - ML 03/30/2020
 
 
-##### Steps for production Model
+##### Evaluation of Results- 04/12/2020
 
 
-##### Final Dashboard for User Group
-- 
+##### Steps for production Model- 04/20/2020
+
+
+##### Final Dashboard for User Group- 05/1/2020
 
 
