@@ -26,6 +26,7 @@ Therefore, we propose a solution to deal with the increased attention that has b
 
 #### A. Source and Size of Data
 Dataset link: https://www.kaggle.com/sobhanmoosavi/us-accidents
+
 This is a countrywide car accident dataset, which covers 49 states of the United States. The accident data are collected from February 2016 to December 2019, using several data providers, including two APIs that provide streaming traffic incident data. These APIs broadcast traffic data captured by a variety of entities, such as the US and state departments of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road-networks. Currently, there are about 3.0 million accident records in this dataset.
 - ID - This is a unique identifier of the accident record.
 - Source - Indicates source of the accident report (i.e. the API which reported the accident.).
