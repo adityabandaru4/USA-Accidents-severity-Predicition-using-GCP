@@ -1,4 +1,3 @@
-# knowledge-based-systems
 <h1 align = "center"> Severity prediction of car accidents in US </h1>
 
 <br/>
