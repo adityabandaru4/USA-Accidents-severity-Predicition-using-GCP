@@ -2,6 +2,9 @@
 
 <br/>
 
+<img src="img1.png" align="middle" >
+
+ 
 ## Team Name: Quarantine Buddies
 
 Team Members:<br/>
@@ -51,7 +54,6 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 - Precipitation(in) - Shows precipitation amount in inches, if there is any.
 - Weather_Condition - Shows the weather condition (rain, snow, thunderstorm, fog, etc.).
 
-#### B.Tentative plan for analysis on GCP
 
 ##### Explratory Data Analysis
 - We use Cloud AutoML and will be exploring the data
@@ -72,9 +74,11 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 ##### Dashboard for Users
 - A Dashboard is created for users.
 - Users dashboard is included with action-oriented features as make it easier for them which will help them refer to or look at what they desire.
+
+<img src="dashboard_user.PNG" align="middle" >
+
 <br>
 
-#### Visualisation in data studio
 
  ##### RESEARCH CITATIONS:
 
@@ -99,14 +103,15 @@ Traffic safety is one of the major concerns and an important challenge for the n
 
 
 
-##### GCP processing - ML 03/30/2020
+#### Tentative plan for analysis on GCP:
 
+##### EDA and Preprocessing - Completed 
 
-##### Evaluation of Results- 04/12/2020
+##### Dashboard for User group - Completed
 
+##### GCP Modelling - ML 04/16/2020
 
-##### Steps for production Model- 04/20/2020
-
+##### Evaluation of Results- 04/21/2020
 
 ##### Final Dashboard for User Group- 05/1/2020
 
