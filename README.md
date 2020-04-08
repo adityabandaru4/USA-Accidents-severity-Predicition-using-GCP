@@ -74,6 +74,30 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 - Users dashboard is included with action-oriented features as make it easier for them which will help them refer to or look at what they desire.
 <br>
 
+#### Visualisation in data studio
+
+ ##### RESEARCH CITATIONS:
+
+- Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “ A Countrywide Traffic Accident Dataset.”, 2019.
+https://arxiv.org/pdf/1906.05409.pdf
+
+-	Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath.” Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights” In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019. 
+https://arxiv.org/pdf/1909.09638.pdf
+
+-	Sachin Kumar1* and Durga Toshniwal2 . “A data mining framework to analyze road accident data”
+https://link.springer.com/content/pdf/10.1186/s40537-015-0035-y.pdf
+
+
+-	Liling Li, Sharad Shrestha, Gongzhu Hu. “Analysis of Road Traffic Fatal Accidents Using Data Mining Techniques” 
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7965753
+
+-	Omer Dawelbeit, Rachel McCrindle. “A Novel Cloud Based Elastic Framework for Big Data Preprocessing “ https://www.researchgate.net/publication/268218832_A_Novel_Cloud_Based_Elastic_Framework_for_Big_Data_Preprocessing
+
+
+ABSTRACT: 
+Traffic safety is one of the major concerns and an important challenge for the normal public and the authorities. So, it is helpful to know what factors caused majority of accidents in that particular region, to propose accurate rules and suggestions that could potentially reduce the accidents rate. The dataset we are dealing with is a large-scale dataset rather than small scale datasets with limited coverage. This dataset is collected through a broad process of data-collection, integration and augmentation. The data is provided using numerous data providers which includes two APIs that deliver streaming traffic event data. Since, the data is huge it is vital to pre-process the data to identify the significant factors related to traffic accidents which could be done using the Data Mining techniques available. We can apply ML techniques and the tools available on this pre-processed data to perform the analysis and achieve the results to predict the factors that are responsible for several accidents. 
+
+
 
 ##### GCP processing - ML 03/30/2020
 
