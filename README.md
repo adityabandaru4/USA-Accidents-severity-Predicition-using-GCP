@@ -64,7 +64,6 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 <br>
 
 ##### Preprocessing Phase
-- We dig and explore for all the null values and missing values like ‘Number’, ‘End_Lng’, ‘End_Lat’ columns in the dataset.
 - We will find and remove all the outliers in the dataset by looking all the columns and finding the values that are very different from the rest of them.
 - We will look for various features to find the most relevant ones to use them for predictions like ‘Weather_Timestamp’, ‘Severity’ , etc., from the dataset.
 - We will learn what are the columns that are least significant like ‘End_Lng’ and ‘End_Lat’ columns in the dataset and remove them.
@@ -79,6 +78,10 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 
 <br>
 
+##### Modelling 
+<div>
+ <button><a href="">Click Here for AutoML Results</a></button>
+ </div>
 
  ##### RESEARCH CITATIONS:
 
