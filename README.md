@@ -77,7 +77,10 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 <img src="dashboard_user.PNG" align="middle" >
 
 <br>
-
+##### AutoML Modelling Results
+ 
+ <button><a href="AutoMLReport.pdf">Click Here for AutoML Results</a></button>
+ 
 ##### Modelling Techniques
 - We have used various models like LinearRegression,Logistic Regression and Light GBM.
 - By using Linear Regression model we obtained a accuracy of around 67% and with Logistic Regression we got around 66%.
@@ -93,7 +96,7 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 
 -Since it is based on decision tree algorithms, it splits the tree leaf wise with the best fit whereas other boosting algorithms split the tree depth wise or level wise rather than leaf-wise. So when growing on the same leaf in Light GBM, the leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms. Also, it is surprisingly very fast, hence the word ‘Light’.
 
-Advantages of Light GBM
+##### Advantages of Light GBM
 
 -Faster training speed and higher efficiency
 -Lower memory usage
@@ -101,10 +104,8 @@ Advantages of Light GBM
 -Compatibility with Large Datasets
 
 <a href="Accident Severity.ipynb">VIEW JUPYTER NOTEBOOK HERE !!!</a>
-##### AutoML Modelling Results
- <button><a href="AutoMLReport.pdf">Click Here for AutoML Results</a></button>
- 
 
+ 
  ##### RESEARCH CITATIONS:
 
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “ A Countrywide Traffic Accident Dataset.”, 2019.
