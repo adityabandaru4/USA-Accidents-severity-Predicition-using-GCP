@@ -98,10 +98,10 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 
 ##### Advantages of Light GBM
 
--Faster training speed and higher efficiency
--Lower memory usage
--Better accuracy than any other boosting algorithm
--Compatibility with Large Datasets
+- Faster training speed and higher efficiency.
+- Lower memory usage.
+- Better accuracy than any other boosting algorithm.
+- Compatibility with Large Datasets.
 
 <a href="Accident Severity.ipynb">VIEW JUPYTER NOTEBOOK HERE !!!</a>
 
