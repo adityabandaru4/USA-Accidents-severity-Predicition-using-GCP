@@ -78,10 +78,22 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 
 <br>
 
-##### Modelling 
-<div>
- <button><a href="">Click Here for AutoML Results</a></button>
- </div>
+##### Modelling Techniques
+- We have used various models like LinearRegression,Logistic Regression and Light GBM.
+- By using Linear Regression model we obtained a accuracy of around 67% and with Logistic Regression we got around 66%.
+- So, we have used the Light GBM model which resulted in the accuracy of 88%.
+
+<img src="Result2.jpeg" align="middle">
+
+##### Why LightGBM
+
+-Light GBM is a high-performance and distributed decision tree-based system used for classification, ranking and many other forms of machine learning tasks. 
+
+-The primary benefit of the LightGBM is the algorithm improvements that significantly speed up the process and also contribute to the creation of an efficient model.
+
+##### AutoML Modelling Results
+ <button><a href="AutoMLReport.pdf">Click Here for AutoML Results</a></button>
+ 
 
  ##### RESEARCH CITATIONS:
 
@@ -112,10 +124,9 @@ Traffic safety is one of the major concerns and an important challenge for the n
 
 ##### Dashboard for User group - Completed
 
-##### GCP Modelling - ML 04/16/2020
+##### GCP Modelling - Completed
 
-##### Evaluation of Results- 04/21/2020
+##### Evaluation of Results- Completed
 
-##### Final Dashboard for User Group- 05/1/2020
 
 
