@@ -91,6 +91,16 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 
 -The primary benefit of the LightGBM is the algorithm improvements that significantly speed up the process and also contribute to the creation of an efficient model.
 
+-Since it is based on decision tree algorithms, it splits the tree leaf wise with the best fit whereas other boosting algorithms split the tree depth wise or level wise rather than leaf-wise. So when growing on the same leaf in Light GBM, the leaf-wise algorithm can reduce more loss than the level-wise algorithm and hence results in much better accuracy which can rarely be achieved by any of the existing boosting algorithms. Also, it is surprisingly very fast, hence the word ‘Light’.
+
+Advantages of Light GBM
+
+-Faster training speed and higher efficiency
+-Lower memory usage
+-Better accuracy than any other boosting algorithm
+-Compatibility with Large Datasets
+
+<a href="Accident Severity.ipynb">VIEW JUPYTER NOTEBOOK HERE !!!</a>
 ##### AutoML Modelling Results
  <button><a href="AutoMLReport.pdf">Click Here for AutoML Results</a></button>
  
