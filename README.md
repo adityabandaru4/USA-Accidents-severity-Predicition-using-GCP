@@ -77,7 +77,7 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 <img src="dashboard_user.PNG" align="middle" >
 
 <br>
-##### AutoML Modelling Results
+#### AutoML Modelling Results
  
  <button><a href="AutoMLReport.pdf">Click Here for AutoML Results</a></button>
  
