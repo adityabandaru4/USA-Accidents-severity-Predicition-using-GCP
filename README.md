@@ -54,8 +54,7 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 - Precipitation(in) - Shows precipitation amount in inches, if there is any.
 - Weather_Condition - Shows the weather condition (rain, snow, thunderstorm, fog, etc.).
 
-
-##### Explratory Data Analysis
+##### Exploratory Data Analysis
 - We use Cloud AutoML and will be exploring the data
 - For each observation, important subsets are identified
 - Interrelationships between various attributes will be observed
@@ -77,9 +76,11 @@ This is a countrywide car accident dataset, which covers 49 states of the United
 <img src="dashboard_user.PNG" align="middle" >
 
 <br>
+
 #### AutoML Modelling Results
  
- <button><a href="AutoMLReport.pdf">Click Here for AutoML Results</a></button>
+![automl.png](https://github.com/adityabandaru4/knowledge-based-systems/blob/master/automl.png)
+
  
 ##### Modelling Techniques
 - We have used various models like LinearRegression,Logistic Regression and Light GBM.
