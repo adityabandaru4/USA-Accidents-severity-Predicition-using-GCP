@@ -9,10 +9,7 @@
 
 Team Members:<br/>
 1)Aditya Bandaru<br/>
-2)Anusha Balumuri<br/>
-3)Ranga Sai Pavan Kiran Vipparla<br/>
-4)Sandeep Bellary<br/>
-5)Siri Chandana Sureddi<br/>
+2)Harshini koduru
 
 ## Project Description 
 - An accident is an uncontrollable incident which happens at times. So our project is focused on “ Car accidents in US” 
